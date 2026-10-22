@@ -1,0 +1,28 @@
+
+# ------ Shared client framework ---------------------------------
+# normalization: common workbook reader
+# transport: common A2A server/client
+# auth: common authentication
+# tracing: shared telemetry and its declared instrumentation pins
+ms-duke-je-common[normalization,transport,auth,tracing]==0.5.10
+
+# ------ A2A / validation / HTTP ----------------------------------
+# Direct pins constrain the common package's declared dependency ranges.
+a2a-sdk==1.0.3
+pydantic==2.12.5
+httpx==0.28.1
+starlette==1.3.1
+
+# ------ Server --------------------------------------------------
+# Imported by the supplied common server, but omitted from its manifests.
+uvicorn==0.41.0
+
+# ------ Excel ---------------------------------------------------
+openpyxl==3.1.5
+
+# Local source alternative: replace ONLY the ms-duke-je-common line above with:
+# -e ./vendor/ms-duke-je-common[normalization,transport,auth,tracing]
+# Or use the team's approved adjacent common checkout:
+# -e ../ms-duke-je-common[normalization,transport,auth,tracing]
+# Do not enable a local source line together with the registry line.
+
