@@ -1,0 +1,3263 @@
+{
+  "schema_version": "1",
+  "rule_version": "i-imbalance-fgt-v2",
+  "scope": "FGT_ONLY",
+  "complete_fgt": true,
+  "complete_workflow": false,
+  "unavailable_sections": [
+    "Gulfstream",
+    "Osprey",
+    "Citrus / Sabal Trail"
+  ],
+  "source": {
+    "type": "I_FPC_OA",
+    "upstream": {
+      "file": "IMBALANCES_Seed_Data.xlsx",
+      "sha256": "e31171620954777dedb9afaf7006367faeca963cffa57a97f8cccca167fb7570",
+      "adapter": "supplied-August-seed-layout",
+      "uses_saved_cross_sheet_values": true
+    }
+  },
+  "target": {
+    "type": "I_Imbalance"
+  },
+  "records": [
+    {
+      "date": "2026-08-01",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11114",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-108215",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-23",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-68032",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-38545",
+          "HEAT RATE-FGT": "1024"
+        }
+      ],
+      "source_record_number": 1,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 13
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 4
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 7
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 10
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 5
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 6
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 8
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 3
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 9
+        }
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-10847",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-1149",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-16417",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-81390",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-9146",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-93161",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-66017",
+          "HEAT RATE-FGT": "1021"
+        }
+      ],
+      "source_record_number": 2,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 14
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 12
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 15
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 18
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 13
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 14
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 16
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 11
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 17
+        }
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11050",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-60195",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-2",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-87841",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-20575",
+          "HEAT RATE-FGT": "1021"
+        }
+      ],
+      "source_record_number": 3,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 15
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 20
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 23
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 26
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 21
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 22
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 24
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 19
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 25
+        }
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11277",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-61926",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-8671",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-95292",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-57467",
+          "HEAT RATE-FGT": "1023"
+        }
+      ],
+      "source_record_number": 4,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 16
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 28
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 31
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 34
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 29
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 30
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 32
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 27
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 33
+        }
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-10916",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-82528",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-77610",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-63067",
+          "HEAT RATE-FGT": "1022"
+        }
+      ],
+      "source_record_number": 5,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 17
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 36
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 39
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 42
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 37
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 38
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 40
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 35
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 41
+        }
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11275",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-4063",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-17378",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-100904",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-14099",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-101164",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-54349",
+          "HEAT RATE-FGT": "1025"
+        }
+      ],
+      "source_record_number": 6,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 18
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 44
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 47
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 50
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 45
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 46
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 48
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 43
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 49
+        }
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11066",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-3199",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-83361",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11847",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-94033",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-43892",
+          "HEAT RATE-FGT": "1023"
+        }
+      ],
+      "source_record_number": 7,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 19
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 52
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 55
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 58
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 53
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 54
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 56
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 51
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 57
+        }
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11007",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-2060",
+          "HEAT RATE-FGT": "1020"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-6855",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-68193",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-12686",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-109815",
+          "HEAT RATE-FGT": "1020"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-73082",
+          "HEAT RATE-FGT": "1022"
+        }
+      ],
+      "source_record_number": 8,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 20
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 60
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 63
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 66
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 61
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 62
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 64
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 59
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 65
+        }
+      }
+    },
+    {
+      "date": "2026-08-09",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-10789",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-1735",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-5323",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-60110",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11275",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-112123",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-70211",
+          "HEAT RATE-FGT": "1024"
+        }
+      ],
+      "source_record_number": 9,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 21
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 68
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 71
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 74
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 69
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 70
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 72
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 67
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 73
+        }
+      }
+    },
+    {
+      "date": "2026-08-10",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-10897",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-2462",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-4767",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-131284",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-5318",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-85712",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-36493",
+          "HEAT RATE-FGT": "1022"
+        }
+      ],
+      "source_record_number": 10,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 22
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 76
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 79
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 82
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 77
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 78
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 80
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 75
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 81
+        }
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11255",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-126978",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-6509",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-71667",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-27260",
+          "HEAT RATE-FGT": "1024"
+        }
+      ],
+      "source_record_number": 11,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 23
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 84
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 87
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 90
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 85
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 86
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 88
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 83
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 89
+        }
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11073",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-128755",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-43446",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-3",
+          "HEAT RATE-FGT": "1024"
+        }
+      ],
+      "source_record_number": 12,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 24
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 92
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 95
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 98
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 93
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 94
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 96
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 91
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 97
+        }
+      }
+    },
+    {
+      "date": "2026-08-13",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11225",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-132058",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-3661",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-60344",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-50755",
+          "HEAT RATE-FGT": "1024"
+        }
+      ],
+      "source_record_number": 13,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 25
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 100
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 103
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 106
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 101
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 102
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 104
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 99
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 105
+        }
+      }
+    },
+    {
+      "date": "2026-08-14",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11114",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-130732",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-67530",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-13012",
+          "HEAT RATE-FGT": "1025"
+        }
+      ],
+      "source_record_number": 14,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 26
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 108
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 111
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 114
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 109
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 110
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 112
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 107
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 113
+        }
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11209",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-129444",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-9284",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-82135",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-49011",
+          "HEAT RATE-FGT": "1024"
+        }
+      ],
+      "source_record_number": 15,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 27
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 116
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 119
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 122
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 117
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 118
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 120
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 115
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 121
+        }
+      }
+    },
+    {
+      "date": "2026-08-16",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11018",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-131563",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-2",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-87873",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-27238",
+          "HEAT RATE-FGT": "1023"
+        }
+      ],
+      "source_record_number": 16,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 28
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 124
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 127
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 130
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 125
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 126
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 128
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 123
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 129
+        }
+      }
+    },
+    {
+      "date": "2026-08-17",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-10745",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-1",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-130349",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-51283",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-25242",
+          "HEAT RATE-FGT": "1022"
+        }
+      ],
+      "source_record_number": 17,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 29
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 132
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 135
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 138
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 133
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 134
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 136
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 131
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 137
+        }
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11027",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-4172",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-124613",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-78156",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-20046",
+          "HEAT RATE-FGT": "1023"
+        }
+      ],
+      "source_record_number": 18,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 30
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 140
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 143
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 146
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 141
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 142
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 144
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 139
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 145
+        }
+      }
+    },
+    {
+      "date": "2026-08-19",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11009",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-166",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-18013",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-115410",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-22824",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-104650",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-76273",
+          "HEAT RATE-FGT": "1022"
+        }
+      ],
+      "source_record_number": 19,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 31
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 148
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 151
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 154
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 149
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 150
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 152
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 147
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 153
+        }
+      }
+    },
+    {
+      "date": "2026-08-20",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11008",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-26",
+          "HEAT RATE-FGT": "1020"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-109485",
+          "HEAT RATE-FGT": "1020"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-103609",
+          "HEAT RATE-FGT": "1020"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-55104",
+          "HEAT RATE-FGT": "1020"
+        }
+      ],
+      "source_record_number": 20,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 32
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 156
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 159
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 162
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 157
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 158
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 160
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 155
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 161
+        }
+      }
+    },
+    {
+      "date": "2026-08-21",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-10773",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-9066",
+          "HEAT RATE-FGT": "1020"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-156004",
+          "HEAT RATE-FGT": "1020"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-18814",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-111238",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-69108",
+          "HEAT RATE-FGT": "1021"
+        }
+      ],
+      "source_record_number": 21,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 33
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 164
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 167
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 170
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 165
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 166
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 168
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 163
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 169
+        }
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11040",
+          "HEAT RATE-FGT": "1020"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-2783",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-9529",
+          "HEAT RATE-FGT": "1020"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-107276",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-13073",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-112020",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-64118",
+          "HEAT RATE-FGT": "1022"
+        }
+      ],
+      "source_record_number": 22,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 34
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 172
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 175
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 178
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 173
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 174
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 176
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 171
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 177
+        }
+      }
+    },
+    {
+      "date": "2026-08-23",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11341",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-1999",
+          "HEAT RATE-FGT": "1019"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-10117",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-107189",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-6033",
+          "HEAT RATE-FGT": "1020"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-111052",
+          "HEAT RATE-FGT": "1019"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-58528",
+          "HEAT RATE-FGT": "1020"
+        }
+      ],
+      "source_record_number": 23,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 35
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 180
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 183
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 186
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 181
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 182
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 184
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 179
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 185
+        }
+      }
+    },
+    {
+      "date": "2026-08-24",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-10776",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-1034",
+          "HEAT RATE-FGT": "1020"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-4119",
+          "HEAT RATE-FGT": "1020"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-106406",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-8753",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-104930",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-51924",
+          "HEAT RATE-FGT": "1020"
+        }
+      ],
+      "source_record_number": 24,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 36
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 188
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 191
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 194
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 189
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 190
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 192
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 187
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 193
+        }
+      }
+    },
+    {
+      "date": "2026-08-25",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11219",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-103284",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-97998",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-13233",
+          "HEAT RATE-FGT": "1022"
+        }
+      ],
+      "source_record_number": 25,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 37
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 196
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 199
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 202
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 197
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 198
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 200
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 195
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 201
+        }
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11185",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-105168",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-20100",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-119453",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-58132",
+          "HEAT RATE-FGT": "1024"
+        }
+      ],
+      "source_record_number": 26,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 38
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 204
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 207
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 210
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 205
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 206
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 208
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 203
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 209
+        }
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11094",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-59",
+          "HEAT RATE-FGT": "1020"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-120141",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-9",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-68484",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11",
+          "HEAT RATE-FGT": "1022"
+        }
+      ],
+      "source_record_number": 27,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 39
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 212
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 215
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 218
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 213
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 214
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 216
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 211
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 217
+        }
+      }
+    },
+    {
+      "date": "2026-08-28",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-10732",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-347",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-7065",
+          "HEAT RATE-FGT": "1020"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-151158",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-8",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-98012",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-54799",
+          "HEAT RATE-FGT": "1023"
+        }
+      ],
+      "source_record_number": 28,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 40
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 220
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 223
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 226
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 221
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 222
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 224
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 219
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 225
+        }
+      }
+    },
+    {
+      "date": "2026-08-29",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-10760",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-2859",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-10606",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-131443",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-8471",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-102521",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-50325",
+          "HEAT RATE-FGT": "1022"
+        }
+      ],
+      "source_record_number": 29,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 41
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 228
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 231
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 234
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 229
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 230
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 232
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 227
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 233
+        }
+      }
+    },
+    {
+      "date": "2026-08-30",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11061",
+          "HEAT RATE-FGT": "1023"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-126471",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-77090",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-10",
+          "HEAT RATE-FGT": "1024"
+        }
+      ],
+      "source_record_number": 30,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 42
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 236
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 239
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 242
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 237
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 238
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 240
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 235
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 241
+        }
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "pipeline": "FGT",
+      "stations": [
+        {
+          "station": "Univ of FL",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-11221",
+          "HEAT RATE-FGT": "1024"
+        },
+        {
+          "station": "Bartow",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-1679",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Suwannee",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-6598",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "Hines",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-133443",
+          "HEAT RATE-FGT": "1022"
+        },
+        {
+          "station": "DeBary",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-8421",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Anclote",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-48776",
+          "HEAT RATE-FGT": "1021"
+        },
+        {
+          "station": "Tiger Bay",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "0",
+          "HEAT RATE-FGT": null
+        },
+        {
+          "station": "Vandolah",
+          "pipeline": "FGT",
+          "MMBTU-FGT": "-45821",
+          "HEAT RATE-FGT": "1023"
+        }
+      ],
+      "source_record_number": 31,
+      "source": {
+        "file": "IMBALANCES_Seed_Data.xlsx",
+        "sheet": "FPC OA",
+        "row": 43
+      },
+      "lookup_sources": {
+        "gainesville": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 244
+        },
+        "bartow": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 247
+        },
+        "suwannee": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 250
+        },
+        "hines": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 245
+        },
+        "debary": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 246
+        },
+        "anclote": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 248
+        },
+        "tiger_bay": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 243
+        },
+        "vandolah": {
+          "file": "IMBALANCES_Seed_Data.xlsx",
+          "sheet": "FGT Data Download - New",
+          "row": 249
+        }
+      }
+    }
+  ],
+  "monthly_stations": [
+    {
+      "station": "Univ of FL",
+      "pipeline": "FGT",
+      "MMBTU-FGT": "-342123",
+      "HEAT RATE-FGT": "1022.580645161290322580645161"
+    },
+    {
+      "station": "Bartow",
+      "pipeline": "FGT",
+      "MMBTU-FGT": "-25620",
+      "HEAT RATE-FGT": "1021.066666666666666666666667"
+    },
+    {
+      "station": "Suwannee",
+      "pipeline": "FGT",
+      "MMBTU-FGT": "-130026",
+      "HEAT RATE-FGT": "1021.466666666666666666666667"
+    },
+    {
+      "station": "Hines",
+      "pipeline": "FGT",
+      "MMBTU-FGT": "-3445476",
+      "HEAT RATE-FGT": "1021.967741935483870967741935"
+    },
+    {
+      "station": "DeBary",
+      "pipeline": "FGT",
+      "MMBTU-FGT": "-199029",
+      "HEAT RATE-FGT": "1022.260869565217391304347826"
+    },
+    {
+      "station": "Anclote",
+      "pipeline": "FGT",
+      "MMBTU-FGT": "-2727050",
+      "HEAT RATE-FGT": "1021.741935483870967741935484"
+    },
+    {
+      "station": "Tiger Bay",
+      "pipeline": "FGT",
+      "MMBTU-FGT": "0",
+      "HEAT RATE-FGT": null
+    },
+    {
+      "station": "Vandolah",
+      "pipeline": "FGT",
+      "MMBTU-FGT": "-1333651",
+      "HEAT RATE-FGT": "1022.612903225806451612903226"
+    }
+  ],
+  "reporting_period": "2026-08",
+  "summary": {
+    "source_records": 31,
+    "target_date_records": 31,
+    "target_station_records": 248,
+    "ending_imbalance_dt": "304733",
+    "exception_count": 0,
+    "total_fgt_mmbtu": "-8202975"
+  },
+  "control": {
+    "mapping_stage": "I_FPC_OA -> I_Imbalance",
+    "sign_rule": "preserve_source_value",
+    "station_count_per_date": 8,
+    "strict": true,
+    "source_total_reconciled": true,
+    "heat_rate_rule": "Arithmetic mean of available daily factors; zero-burn blanks excluded"
+  },
+  "exceptions": [],
+  "output": {
+    "file": "I_Imbalance.xlsx",
+    "target_sheet": "I_Imbalance",
+    "template_used": false,
+    "scope": "FGT_ONLY",
+    "complete_workflow": false
+  }
+}

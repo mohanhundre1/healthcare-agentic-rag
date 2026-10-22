@@ -1,0 +1,30 @@
+{
+  "status": "success_fgt_only",
+  "source_file": "output\\calculated_I_FPC_OA.json",
+  "scope": "FGT_ONLY",
+  "complete_workflow": false,
+  "summary": {
+    "source_records": 31,
+    "target_date_records": 31,
+    "target_station_records": 248,
+    "ending_imbalance_dt": "304733",
+    "exception_count": 0,
+    "total_fgt_mmbtu": "-8202975"
+  },
+  "control": {
+    "mapping_stage": "I_FPC_OA -> I_Imbalance",
+    "sign_rule": "preserve_source_value",
+    "station_count_per_date": 8,
+    "strict": true,
+    "source_total_reconciled": true,
+    "heat_rate_rule": "Arithmetic mean of available daily factors; zero-burn blanks excluded"
+  },
+  "exceptions": [],
+  "output": {
+    "file": "I_Imbalance.xlsx",
+    "target_sheet": "I_Imbalance",
+    "template_used": false,
+    "scope": "FGT_ONLY",
+    "complete_workflow": false
+  }
+}
